@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: rgb(99,149,212);
+  --foreground: #ffffff;
+  --accent: rgb(183,157,113);
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: rgb(99,149,212);
+    --foreground: #ffffff;
+    --accent: rgb(183,157,113);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Navigation hover effects */
+nav a {
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* Link transitions */
+.transition-accent {
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.transition-accent:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
