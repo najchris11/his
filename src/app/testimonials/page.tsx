@@ -7,7 +7,7 @@ export default function TestimonialsPage() {
       name: "Jean Uelman",
       location: "Antigua, Guatemala",
       date: "February - April 1997",
-      content: `At 50, Jean had lived well beyond the expectations of one born with Werdnig-Hoffman's Disease (SMA). After starting HIS Healing Solution in February 1997, she experienced remarkable improvements. Within days, her chronic sciatic pain stopped. She regained abilities lost years ago - from sitting without support to feeding herself. Her detailed 6-week journal documented unprecedented improvements in muscle strength, movement, and quality of life. Notable improvements included regained arm movement, better breathing, increased muscle mass, and return of abilities lost 5-14 years prior.`,
+      content: `At 50, Jean had lived well beyond the expectations of one born with Werdnig-Hoffman&aposs Disease (SMA). After starting HIS Healing Solution in February 1997, she experienced remarkable improvements. Within days, her chronic sciatic pain stopped. She regained abilities lost years ago - from sitting without support to feeding herself. Her detailed 6-week journal documented unprecedented improvements in muscle strength, movement, and quality of life. Notable improvements included regained arm movement, better breathing, increased muscle mass, and return of abilities lost 5-14 years prior.`,
       details: [
         "Feb 27: Chronic pain stopped within days of starting treatment",
         "Mar 5: Clear increase in muscle usage and strength",
@@ -33,13 +33,13 @@ export default function TestimonialsPage() {
       condition: "Celiac Disease",
       name: "Danielle M.",
       date: "October 24, 2008",
-      content: "I am 31 years old and after taking HIS Healing Solution for 4 days I am finally healthy for the first time in my life... After 4 days I went to take my spray and looked at the bottle and just knew I was ok. Over two months later I am so happy that I don't have to worry about my son being different because he won't suffer from celiac."
+      content: "I am 31 years old and after taking HIS Healing Solution for 4 days I am finally healthy for the first time in my life... After 4 days I went to take my spray and looked at the bottle and just knew I was ok. Over two months later I am so happy that I don&apost have to worry about my son being different because he won&apost suffer from celiac."
     },
     {
       condition: "Multiple Sclerosis",
       name: "Suzan L.",
       location: "Chianti Region, Italy",
-      content: "It's hard to believe but there was a change almost overnight and from the time when it came I am walking without a stick, have gained 3 kgs. in weight and am ecstatically happy."
+      content: "It&aposs hard to believe but there was a change almost overnight and from the time when it came I am walking without a stick, have gained 3 kgs. in weight and am ecstatically happy."
     },
     {
       condition: "Diabetes (Type II)",
@@ -85,7 +85,7 @@ export default function TestimonialsPage() {
               </div>
               
               <blockquote className="text-gray-700 mb-4 italic border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-                "{testimonial.content}"
+                &quot{testimonial.content}&quot
               </blockquote>
               
               {testimonial.details && (
@@ -115,7 +115,7 @@ export default function TestimonialsPage() {
             Many of these testimonials are supported by detailed documentation, including personal journals, physician observations, and physical therapy records. The improvements noted in conditions like Spinal Muscular Atrophy (SMA) are particularly significant as they demonstrate improvements in a condition typically characterized by decline.
           </p>
           <p className="text-gray-700">
-            Evaluations of HIS Healing Solution by individuals, physicians and institutions have demonstrated consistent positive results across various conditions. The solution appears to support the body's natural healing processes, with effects ranging from rapid tissue repair to long-term improvements in chronic conditions.
+            Evaluations of HIS Healing Solution by individuals, physicians and institutions have demonstrated consistent positive results across various conditions. The solution appears to support the body&aposs natural healing processes, with effects ranging from rapid tissue repair to long-term improvements in chronic conditions.
           </p>
         </div>
       </main>

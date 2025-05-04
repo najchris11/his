@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen p-8 pb-20 gap-8 sm:p-20">
@@ -24,7 +22,7 @@ export default function Home() {
         {/* Technology Section */}
         <div className="bg-white/90 rounded-lg p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Infopeptide Technology</h2>
-          <p className="text-gray-700 mb-4">Our bodies are designed to maintain wellness through an informational relationship between our brain and cells, facilitated by small proteins known as info-peptides. These peptides function as the cellular "software", orchestrating and coordinating bodily functions.</p>
+          <p className="text-gray-700 mb-4">Our bodies are designed to maintain wellness through an informational relationship between our brain and cells, facilitated by small proteins known as info-peptides. These peptides function as the cellular &quotsoftware&quot, orchestrating and coordinating bodily functions.</p>
           <p className="text-gray-700">Clinical evaluations in multiple countries have demonstrated the safety and benefits of infopeptide supplementation.</p>
         </div>
 
@@ -38,7 +36,7 @@ export default function Home() {
               <li>Benign Prostatic Hyperplasia</li>
               <li>Cancer (adjunctive use only)</li>
               <li>Celiac Disease</li>
-              <li>Crohn's Disease</li>
+              <li>Crohn&aposs Disease</li>
               <li>Diabetes Type II</li>
               <li>Fibromyalgia</li>
               <li>Hypertension</li>
@@ -49,7 +47,7 @@ export default function Home() {
               <li>Perthes Disease</li>
               <li>PMS & Endometriosis</li>
               <li>Psoriasis</li>
-              <li>Sjögren's Syndrome</li>
+              <li>Sjögren&aposs Syndrome</li>
               <li>Spinal Muscular Atrophy</li>
               <li>Thrombocytopenia</li>
               <li>Topical Applications</li>
@@ -64,17 +62,17 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b-2" style={{ borderColor: 'rgb(183,157,113)' }}>Customer Testimonials</h2>
           <div className="space-y-6">
             <div className="border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-              <p className="text-gray-700 italic mb-2">"Within only hours of putting a few drops of HIS Healing Solution on, the wound began healing dramatically. I am simply stunned by the speed and depth of healing."</p>
+              <p className="text-gray-700 italic mb-2">&quotWithin only hours of putting a few drops of HIS Healing Solution on, the wound began healing dramatically. I am simply stunned by the speed and depth of healing.&quot</p>
               <p className="text-sm text-gray-500">- Patricia R., Scottsdale</p>
             </div>
 
             <div className="border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-              <p className="text-gray-700 italic mb-2">"After taking HIS Healing Solution for 4 days I am finally healthy for the first time in my life. I can't say I understand it and some days I still don't believe it, but it worked."</p>
+              <p className="text-gray-700 italic mb-2">&quotAfter taking HIS Healing Solution for 4 days I am finally healthy for the first time in my life. I can&apost say I understand it and some days I still don&apost believe it, but it worked.&quot</p>
               <p className="text-sm text-gray-500">- Danielle M.</p>
             </div>
 
             <div className="border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-              <p className="text-gray-700 italic mb-2">"I have noted a great difference in my energy level. My glucose levels dropped from 158 to 113, and I can now sleep through the night."</p>
+              <p className="text-gray-700 italic mb-2">&quotI have noted a great difference in my energy level. My glucose levels dropped from 158 to 113, and I can now sleep through the night.&quot</p>
               <p className="text-sm text-gray-500">- Maxine P.</p>
             </div>
           </div>
