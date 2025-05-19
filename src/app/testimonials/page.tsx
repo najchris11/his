@@ -85,7 +85,7 @@ export default function TestimonialsPage() {
               </div>
               
               <blockquote className="text-gray-700 mb-4 italic border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-                &quot{testimonial.content}&quot
+                &quot;{testimonial.content}&quot;
               </blockquote>
               
               {testimonial.details && (

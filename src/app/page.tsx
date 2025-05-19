@@ -22,7 +22,7 @@ export default function Home() {
         {/* Technology Section */}
         <div className="bg-white/90 rounded-lg p-6 mb-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Infopeptide Technology</h2>
-          <p className="text-gray-700 mb-4">Our bodies are designed to maintain wellness through an informational relationship between our brain and cells, facilitated by small proteins known as info-peptides. These peptides function as the cellular &quotsoftware&quot, orchestrating and coordinating bodily functions.</p>
+          <p className="text-gray-700 mb-4">Our bodies are designed to maintain wellness through an informational relationship between our brain and cells, facilitated by small proteins known as info-peptides. These peptides function as the cellular &quot;software&quot;, orchestrating and coordinating bodily functions.</p>
           <p className="text-gray-700">Clinical evaluations in multiple countries have demonstrated the safety and benefits of infopeptide supplementation.</p>
         </div>
 
@@ -62,17 +62,17 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b-2" style={{ borderColor: 'rgb(183,157,113)' }}>Customer Testimonials</h2>
           <div className="space-y-6">
             <div className="border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-              <p className="text-gray-700 italic mb-2">&quotWithin only hours of putting a few drops of HIS Healing Solution on, the wound began healing dramatically. I am simply stunned by the speed and depth of healing.&quot</p>
+              <p className="text-gray-700 italic mb-2">&quot;Within only hours of putting a few drops of HIS Healing Solution on, the wound began healing dramatically. I am simply stunned by the speed and depth of healing.&quot;</p>
               <p className="text-sm text-gray-500">- Patricia R., Scottsdale</p>
             </div>
 
             <div className="border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-              <p className="text-gray-700 italic mb-2">&quotAfter taking HIS Healing Solution for 4 days I am finally healthy for the first time in my life. I can&apost say I understand it and some days I still don&apost believe it, but it worked.&quot</p>
+              <p className="text-gray-700 italic mb-2">&quot;After taking HIS Healing Solution for 4 days I am finally healthy for the first time in my life. I can&apost say I understand it and some days I still don&apost believe it, but it worked.&quot;</p>
               <p className="text-sm text-gray-500">- Danielle M.</p>
             </div>
 
             <div className="border-l-4 pl-4" style={{ borderColor: 'rgb(183,157,113)' }}>
-              <p className="text-gray-700 italic mb-2">&quotI have noted a great difference in my energy level. My glucose levels dropped from 158 to 113, and I can now sleep through the night.&quot</p>
+              <p className="text-gray-700 italic mb-2">&quot;I have noted a great difference in my energy level. My glucose levels dropped from 158 to 113, and I can now sleep through the night.&quot;</p>
               <p className="text-sm text-gray-500">- Maxine P.</p>
             </div>
           </div>
